@@ -65,6 +65,7 @@ myPromise('wladimirOSZ')
     console.log(error);
 });
 
+// AXIOS TRABALHA COM  SERVIDOR
 axios.get('https://api.github.com/users/PedroOliveiraS')
 .then(function(response){
     console.log("axios", response);

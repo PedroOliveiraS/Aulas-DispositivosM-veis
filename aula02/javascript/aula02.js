@@ -71,3 +71,6 @@ console.log(users);
 
 //Adiciona um item no início do vetor
 users.unshift({ id: 1, name: 'Primeiro'});
+console.log(users);
+
+console.log(indexes.join('.'));

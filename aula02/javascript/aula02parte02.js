@@ -64,3 +64,16 @@ myPromise('wladimirOSZ')
 .catch(function(error){
     console.log(error);
 });
+
+axios.get('https://api.github.com/users/PedroOliveiraS')
+.then(function(response){
+    console.log("axios", response);
+    console.log(response.data);
+})
+.catch(function(error){
+    console.log("axios", error);
+});
+
+setInterval(function(){
+    console.log('Código que será executado após 3s');
+},3000); // 3 segundos -> 3000ms
